@@ -4,6 +4,7 @@ import javax.swing.*;
 
 /**
  * GUI main view
+ *
  * @author kamil_machulik
  * @version 1.0
  */
@@ -22,6 +23,6 @@ public class MainView {
     /**
      * Main view panel contains all view elements
      */
-    public JPanel  panelMain;
+    public JPanel panelMain;
 
 }

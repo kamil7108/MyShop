@@ -1,25 +1,26 @@
 package pl.polsl.lab1.shop.View;
 
-import pl.polsl.lab1.shop.Module.Article;
+import pl.polsl.lab1.shop.Model.Article;
 
 import javax.swing.*;
 
 /**
  * GUI view for searching and viewing article properties
- *  @author kamil_machulik
- *  @version 1.0
+ *
+ * @author kamil_machulik
+ * @version 1.0
  */
 public class SearchArticleView {
 
     /**
      * Main view panel contains all view elements
      */
-    public JPanel           panel1;
+    public JPanel panel1;
 
     /**
      * JList shows all shop articles
      */
-    public JList <Article>listOfArticles;
+    public JList<Article> listOfArticles;
 
     /**
      * Text pane shows selected item description
@@ -27,8 +28,13 @@ public class SearchArticleView {
     public JTextPane textPane1;
 
     /**
-     *  Back to main view button
+     * Back to main view button
      */
-    public JButton  returnToMainPageButton;
+    public JButton    returnToMainPageButton;
+    /**
+     * Text field for entering the searched article
+     */
+    public JTextField searchTextField;
+    public JComboBox  markBox;
 
 }
