@@ -7,10 +7,14 @@ import java.util.List;
  * Class acts as a warehouse
  *
  * @author kamil_machulik
- * @version 1.0
+ * @version 1.1
  */
 public class MarkWarehouse {
 
+    /**
+     * MarkWarehouse constructor
+     * @param mark - warehouse mark
+     */
     public MarkWarehouse(String mark) {
         this.mark = mark;
     }
@@ -31,7 +35,8 @@ public class MarkWarehouse {
      * @param article new article
      */
     public void addArticle(Article article) {
-        listOfArticle.add(article);
+        if (article != null)
+            listOfArticle.add(article);
     }
 
     /**

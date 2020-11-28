@@ -1,12 +1,16 @@
 package pl.polsl.lab1.shop.View;
 
+import pl.polsl.lab1.shop.Conroller.MainViewController;
+import pl.polsl.lab1.shop.Conroller.SearchViewController;
+import pl.polsl.lab1.shop.Model.Shop;
+
 import javax.swing.*;
 
 /**
  * GUI view for adding new articles
  *
  * @author kamil_machulik
- * @version 1.0
+ * @version 1.2
  */
 public class AddArticleView {
 
@@ -39,7 +43,12 @@ public class AddArticleView {
      * Text field for entering the description
      */
     public JTextField textFieldDescription;
+
+    /**
+     * Text field for entering the mark
+     */
     public JTextField markField;
+
 
 
 }

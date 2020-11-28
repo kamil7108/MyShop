@@ -2,9 +2,8 @@ package ControllerTests;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import pl.polsl.lab1.shop.Conroller.Controller;
 
-public class ControllerTests {
+public class ShopControllerTests {
 
     @BeforeEach
     void init(){

@@ -8,7 +8,7 @@ import javax.swing.*;
  * GUI view for searching and viewing article properties
  *
  * @author kamil_machulik
- * @version 1.0
+ * @version 1.2
  */
 public class SearchArticleView {
 
@@ -31,10 +31,17 @@ public class SearchArticleView {
      * Back to main view button
      */
     public JButton    returnToMainPageButton;
+
     /**
      * Text field for entering the searched article
      */
     public JTextField searchTextField;
-    public JComboBox  markBox;
+
+    /**
+     * Combo box of articles marks
+     */
+    public JComboBox markBox;
+    public JButton addTheItemToButton;
+    public JButton viewCartButton;
 
 }
